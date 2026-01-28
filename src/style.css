@@ -1,0 +1,72 @@
+@import './index.css';
+
+/* src/index.css or src/globals.css */
+
+.hero-pattern {
+  background-image: radial-gradient(circle at 1px 1px, #1e293b 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #0ea5e9, #6366f1);
+  background-clip: text;             
+  -webkit-background-clip: text;      
+  -webkit-text-fill-color: transparent; 
+  color: transparent;   
+}
+
+.tech-pill {
+  border: 1px solid #334155;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  transition: transform 0.2s ease;
+}
+.tech-pill:hover {
+  transform: scale(1.05);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+
+ .skill-card {
+        transition: all 0.3s ease;
+    }
+    
+    .skill-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+.skill-icon {
+        transition: all 0.3s ease;
+    }
+    
+    .skill-card:hover .skill-icon {
+        transform: scale(1.1);
+    }
+
+     .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+        .skill-pill:hover {
+        transform: scale(1.05);
+    }
+    
