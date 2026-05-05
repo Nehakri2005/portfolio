@@ -1,12 +1,59 @@
-# React + Vite
+# 🌐 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal **developer portfolio website** showcasing my skills, projects, and experience. It is designed to provide a clean and interactive interface where visitors can explore my work and get to know me better as a developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 👩‍💻 About Me section  
+- 🛠️ Skills & Technologies  
+- 📂 Projects showcase with details  
+- 📞 Contact section  
+- 📱 Responsive design (mobile-friendly)  
+- ⚡ Smooth UI/UX  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧑‍💻 Tech Stack
+
+- **Frontend:** HTML, Tailwind CSS, JavaScript  
+- **Framework:** React   
+- **Tools:** Git, GitHub 
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Nehakri2005/portfolio.git
+```
+2. Navigate to the project folder:
+```bash
+cd portfolio
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Run the project:
+```bash
+Run the project:
+```
+## 🌍 Live Demo
+https://neha-portfolio-1ctc.onrender.com/
+
+## 📁 Project Structure
+```bash
+portfolio/
+│── public/
+│── src/
+│   ├── components/
+│   ├── assets/
+│   ├── pages/
+│── package.json
+│── README.md
+```
+## ⭐ Show Your Support
+If you like this project, consider giving it a ⭐ on GitHub!
